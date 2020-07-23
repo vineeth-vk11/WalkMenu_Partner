@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Book Karo Vendor</string>
+    <string name="title_accepted">Accepted</string>
+    <string name="title_available">Available</string>
+    <string name="title_profile">Profile</string>
+    <string name="login">Login</string>
+    <string name="or">or</string>
+    <string name="enter_otp_prompt">Please enter the one-time password to verify your account</string>
+    <string name="validate">Validate</string>
+    <string name="enter_details">Please enter your details</string>
+    <string name="get_started">Get started</string>
+    <string name="verification_failed">Verification failed. Please try again</string>
+    <string name="otp_sent_to">A one-time password has been sent to</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="code_not_received">Didn\'t receive a code?</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="unable_to_add_account">Unable to add your account. Please try again.</string>
+    <string name="rupee_symbol">₹</string>
+
+    <string name="bookings_you_can_accept">Bookings you can accept</string>
+    <string name="accepted_bookings">Accepted bookings</string>
+    <string name="no_orders">No service requests available at the moment</string>
+    <string name="no_services_accepted">You haven\'t accepted any service requests</string>
+    <string name="work_started">Started</string>
+    <string name="work_completed">Completed</string>
+    <string name="work_cancel">Cancel</string>
+
+    <!--START: Firebase Firestore values-->
+    <string name="firestore_collection_order_data" translatable="false">OrderData</string>
+    <string name="firestore_collection_order_data_field_accepted_shop_number" translatable="false">acceptedShopNumber</string>
+    <string name="firestore_collection_order_data_field_user_id" translatable="false">userId</string>
+    <string name="firestore_collection_order_data_field_service_date" translatable="false">serviceDate</string>
+    <string name="firestore_collection_order_data_field_service_name" translatable="false">serviceName</string>
+    <string name="firestore_collection_order_data_field_service_price" translatable="false">servicePrice</string>
+    <string name="firestore_collection_order_data_field_status" translatable="false">status</string>
+    <string name="firestore_collection_order_data_field_shop_address" translatable="false">shopAddress</string>
+    <string name="firestore_collection_order_data_field_shop_icon_url" translatable="false">shopIconUrl</string>
+    <string name="firestore_collection_order_data_field_shop_name" translatable="false">shopName</string>
+
+    <string name="firestore_collection_vendor_data" translatable="false">VendorData</string>
+    <string name="firestore_collection_vendor_data_field_shop_address" translatable="false">shopAddress</string>
+    <string name="firestore_collection_vendor_data_field_shop_icon_url" translatable="false">shopIconUrl</string>
+    <string name="firestore_collection_vendor_data_field_shop_name" translatable="false">shopName</string>
+    <string name="title_activity_delivery_services">DeliveryServicesActivity</string>
+    <string name="title_activity_shop_services">ShopServicesActivity</string>
+    <!--END: Firebase Firestore values-->
+
+</resources>
